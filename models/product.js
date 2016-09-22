@@ -12,4 +12,4 @@ var schema = new Schema({
     price: {type: Number, require: true}
 });
 
-model.exports = mongoose.model('Product', schema);
+module.exports = mongoose.model('Product', schema);
